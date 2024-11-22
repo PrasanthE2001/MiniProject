@@ -1,22 +1,19 @@
-# MiniProject
+# 19AI701-MINI_PROJECT
 
-# Title : Osteo-Synergy
-## An Automated Osteo Fracture Detection System Supported by AzureML Studio
-<br></br>
+# Title: Deep Learning Based Bone Fracture Identification using Residual Neural Network.
 
-Link to presentation : [AzureInnovationChallenge2024.pdf](https://github.com/naveenkumar12624/AzureInnovationChallenge2024/blob/main/AzureInnovationChallenge2024.pdf)
 ## Problem:
 The current process of diagnosing bone fractures from X-ray images in the medical domain often encounters challenges due to the reliance on manual interpretation by radiologists. This manual approach may lead to delays in diagnosis, potential misinterpretations, and variations in expertise, affecting patient care and treatment timelines. Moreover, the increasing demand for swift and accurate fracture detection necessitates a more efficient and automated system.
 <br></br>
 
 ## Solution:
-By leveraging the advanced ResNet18 architecture combined with custom residual blocks, a novel deep learning-based solution for bone fracture detection can be established. This amalgamation harnesses the power of transfer learning from the pre-trained ResNet18 model.The primary objective of this mini-project is to develop an innovative deep learning model capable of accurately detecting bone fractures from medical imaging data, specifically X-ray images.
-<br></br>
+By leveraging the advanced ResNet152V2 architecture combined with custom residual blocks, a novel deep learning-based solution for bone fracture detection can be established. This amalgamation harnesses the power of transfer learning from the pre-trained ResNet152V2 model.The primary objective of this mini-project is to develop an innovative deep learning model capable of accurately detecting bone fractures from medical imaging data, specifically X-ray images.
+
 ### The proposed methodology involves:
 
-**Transfer Learning with ResNet18:** Utilize the pre-trained ResNet18, a state-of-the-art convolutional neural network, as a foundational base model for feature extraction from bone X-ray images. This pre-trained network possesses learned features from a large dataset (ImageNet) and thus exhibits a deep understanding of general image patterns.
+**Transfer Learning with ResNet152V2:** Utilize the pre-trained ResNet152V2, a state-of-the-art convolutional neural network, as a foundational base model for feature extraction from bone X-ray images. This pre-trained network possesses learned features from a large dataset (ImageNet) and thus exhibits a deep understanding of general image patterns.
 
-**Custom Residual Blocks:** Augment the ResNet18 base model with custom residual blocks tailored to emphasize finer details and localized features specific to bone fractures. These blocks employ convolutional layers, batch normalization, and residual connections to enhance the network's ability to capture intricate fracture patterns.
+**Custom Residual Blocks:** Augment the ResNet152V2 base model with custom residual blocks tailored to emphasize finer details and localized features specific to bone fractures. These blocks employ convolutional layers, batch normalization, and residual connections to enhance the network's ability to capture intricate fracture patterns.
 
 **Hierarchical Feature Representation:** Employ multiple layers of residual blocks and pooling operations to progressively extract hierarchical representations of fractures at varying scales. The model gradually learns to discern features at different levels of abstraction, aiding in accurate fracture localization and identification.
 
@@ -26,9 +23,6 @@ The proposed model, 'ResNet_model,' amalgamates the strengths of transfer learni
 
 <br></br>
 
-## Architectural Diagram :
-![Picture1](https://github.com/user-attachments/assets/fadea553-0613-4f23-aa3a-dc6ac376fec5)
-<br></br>
 ## Design Steps:
 
 1) Image Data Collection
@@ -38,30 +32,24 @@ The proposed model, 'ResNet_model,' amalgamates the strengths of transfer learni
 5) Model Evaluation and Performance Analysis
 <br></br>
 
-## Flow Diagram :
-![image](https://github.com/user-attachments/assets/fa914da1-ce56-4580-8c86-319902d39e12)
-<br></br>
 
 ## Output:
+<br></br>
+## ResNet Model Reaches the **Accuracy of 94% and Validation Accuracy of 75%**
 
-## ResNet18 Model Reaches the **Accuracy of 94% and Validation Accuracy of 90%**
-![image](https://github.com/user-attachments/assets/334f01bf-0dab-4eef-8f68-ccb6dfc4acf6)
-
-
+![Accuracy](https://github.com/naveenkumar12624/19AI701-MINI_PROJECT_TEAM_ML-20/assets/93427235/b1447558-54c6-42f2-85a6-cf58fb745eff)
 
 <br></br>
 ## Also the **Loss has been Reduced** Over some Iterations.
 
-![image](https://github.com/user-attachments/assets/e8a3dc1a-becc-4515-80c4-f35ec67fbc3c)
-
+![Screenshot 2023-11-15 001110](https://github.com/naveenkumar12624/19AI701-MINI_PROJECT_TEAM_ML-20/assets/93427235/e1310cb7-4455-46b2-bca4-b432262907c8)
 
 <br></br>
 ## This ResNet Model can able to Identify the **Bone is whether Fractured or Not**
 
-![image](https://github.com/user-attachments/assets/8965f608-e10d-4995-98a6-5084fed3a791)
+![Screenshot 2023-11-15 001406](https://github.com/naveenkumar12624/19AI701-MINI_PROJECT_TEAM_ML-20/assets/93427235/7db5055a-a83d-4d00-a5e8-7cef129a7b7b)
 
-![image](https://github.com/user-attachments/assets/953919e4-ccd4-481a-959c-df42478f5779)
-
+![Screenshot 2023-11-15 001859](https://github.com/naveenkumar12624/19AI701-MINI_PROJECT_TEAM_ML-20/assets/93427235/0509ca80-5bcd-406a-a3b0-a5fa3673c386)
 
 <br></br>
 ## Future Implementation of this Project:
